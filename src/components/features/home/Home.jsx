@@ -28,7 +28,7 @@ const Home = () => {
             <th onClick={() => handleSort("id")}>ID</th>
             <th onClick={() => handleSort("product_name")}>Product Name</th>
             <th onClick={() => handleSort("product_weight")}>Product Weight</th>
-            <th onClick={() => handleSort("price")}>Price</th>
+            <th onClick={() => handleSort("price")}>Price(INR)</th>
             <th onClick={() => handleSort("calories")}>Calories</th>
             <th onClick={() => handleSort("ingredients")}>Ingredients</th>
           </tr>

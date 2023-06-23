@@ -2,6 +2,11 @@
 
 - An app with a table with filter and sorting functionality for snacks list.
 
+## Tech Stack
+
+* React
+* Netlify
+
 ## Preview
 
 - [View Live](https://snack-table-gautam-balamurali.netlify.app/)
