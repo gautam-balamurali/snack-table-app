@@ -70,7 +70,6 @@ export const SnacksProvider = ({ children }) => {
           const bValue = b[snacksData.sortColumn];
 
           if (snacksData.sortColumn === "ingredients") {
-            // Sorting by ingredients column
             const sortedA = aValue.join(", ").toLowerCase();
             const sortedB = bValue.join(", ").toLowerCase();
             return snacksData.sortOrder === "asc"
@@ -83,6 +82,12 @@ export const SnacksProvider = ({ children }) => {
             return snacksData.sortOrder === "asc"
               ? aValue - bValue
               : bValue - aValue;
+          } else if (snacksData.sortColumn === "product_weight") {
+            const weightA = parseInt(aValue);
+            const weightB = parseInt(bValue);
+            return snacksData.sortOrder === "asc"
+              ? weightA - weightB
+              : weightB - weightA;
           } else {
             if (typeof aValue === "string" && typeof bValue === "string") {
               return snacksData.sortOrder === "asc"
