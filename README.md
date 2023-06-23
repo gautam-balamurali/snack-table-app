@@ -1,4 +1,12 @@
-# Getting Started with Create React App
+# 🍕Snack Table🍣
+
+- An app with a table with filter and sorting functionality for snacks list.
+
+# Preview
+
+- [View Live](https://snack-table-gautam-balamurali.netlify.app/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
