@@ -2,7 +2,7 @@
 
 - An app with a table with filter and sorting functionality for snacks list.
 
-# Preview
+## Preview
 
 - [View Live](https://snack-table-gautam-balamurali.netlify.app/)
 
